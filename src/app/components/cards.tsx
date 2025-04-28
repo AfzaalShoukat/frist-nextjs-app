@@ -16,8 +16,8 @@ export default function Card({ title, description, price}: {
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
-      <div className="text-4xl mb-4">{title}</div>
-      <h3 className="text-xl font-semibold mb-2">{description}</h3>
+      <div className="text-4xl mb-4 text-gray-400">{title}</div>
+      <h3 className="text-xl text-gray-300 mb-2">{description}</h3>
       <p className="text-gray-600">{price}</p>
     </motion.div>
   )
